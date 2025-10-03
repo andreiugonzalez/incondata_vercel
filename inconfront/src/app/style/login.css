@@ -1,0 +1,244 @@
+.bg-image {
+    background-image: url('../img/bg-incon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.border-login{
+    border-radius: 5%;
+    margin-left: 90%;
+}
+.custom-width-login {
+  width: 32%;
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 32%;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .border-login {
+    border-radius: 8px;
+    margin-left: 0;
+  }
+  .custom-width-login {
+    width: 90%;
+    max-width: 100%;
+    top: 10%;
+  }
+  .responsive-mobil {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
+.bg-logo-login{
+    background-image: url('');
+    background-size: 20%;
+    background-position: 13% 30%;
+    background-repeat: no-repeat;
+}
+.font-zen-kaku{
+    font-family: "zen kaku gothic antique", sans-serif;
+}
+.font-construyendo {
+  color: white;
+  position: absolute;  /* Cambiado a "absolute" para que el span no afecte al flujo de los demás elementos */
+  top: 48%;  /* Porcentaje relativo al contenedor padre */
+  left: 13%;  /* Porcentaje relativo al contenedor padre */
+  text-align: center;
+  font-size: 2.5vw;  /* Tamaño de fuente relativo al ancho de la ventana */
+  font-family: "zen kaku gothic antique", sans-serif;
+}
+.font-parrafo {
+  color: white;
+  position: absolute;
+  top: 58%;  /* Porcentaje relativo al contenedor padre */
+  right: 64.7%;  /* Porcentaje relativo al contenedor padre */
+  text-align: left;
+  font-size: min(1vw, 3vw);  /* Tamaño de fuente relativo al ancho de la ventana */
+  width: 22vw;  /* Ancho relativo al ancho de la ventana */
+  max-height: 22vh;  /* Altura máxima relativa al alto de la ventana */
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: "zen kaku gothic antique", sans-serif;
+}
+@media (max-width: 1080px) {
+  .font-parrafo {
+    font-size: min(1.5vw, 3vw);  /* Ajustar el tamaño de fuente para tablets */
+    width: 42vw;  /* Ajustar el ancho relativo si es necesario */
+    max-height: 30vh;  /* Ajustar la altura máxima si es necesario */
+    padding-left: 20%;  /* Ajustar el padding izquierdo para tablets */
+  }
+  .custom-tittle-login{
+    margin-left: 4.1rem;
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .custom-tittle-login2{
+    margin-left: 4.1rem;
+    font-size: 1.005rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .font-parrafo {
+    font-size: min(2vw, 4vw);  /* Aumentar el tamaño de fuente en pantallas más pequeñas */
+    width: 40vw;  /* Ajustar el ancho relativo si es necesario */
+    max-height: 30vh;  /* Ajustar la altura máxima si es necesario */
+  }
+}
+@media (max-width: 480px) {
+  .font-parrafo {
+    font-size: min(3vw, 5vw);  /* Aumentar aún más el tamaño de fuente */
+    width: 60vw;  /* Ajustar el ancho relativo si es necesario */
+    max-height: 40vh;  /* Ajustar la altura máxima si es necesario */
+    padding-left: 30%;
+  }
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita el desplazamiento en desktop */
+  }
+
+  /* Permitir scroll en móviles */
+  @media (max-width: 768px) {
+    body, html {
+      overflow: auto; /* Permite el desplazamiento en móviles */
+      height: auto;
+      min-height: 100vh;
+    }
+  }
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Ajustar contenedor para móviles */
+  @media (max-width: 768px) {
+    .container {
+      height: auto;
+      min-height: 100vh;
+      padding: 2rem 0;
+      align-items: flex-start;
+    }
+  }
+  .form-field-1 {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  .form-field-1 label {
+    position: absolute;
+    top: 40%;
+    left: 0.95rem;
+    transform: translateY(-50%);
+    padding: 0.25rem 0.90rem;
+    color: #6c757d;
+    pointer-events: none;
+    transition: 0.3s ease-out all;
+    background-color: white; /* Asegura que el fondo del label sea blanco para cubrir el borde */
+    border-radius: 15rem;
+  }
+  .form-field-1 input {
+    width: 100%;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid #ced4da;
+    border-radius: 10px; /* Ajusta el radio de borde */
+    transition: 0.3s ease-out all;
+    font-family: "zen kaku gothic antique", sans-serif;
+    margin-bottom: 0.7rem;
+  }
+  .form-field-1 input:focus, .form-field-1 input:valid {
+    border-color: black; /* Cambia el color del borde al hacer clic o si el input tiene valor */
+  }
+  .form-field-1 input:focus + label, .form-field-1 input:valid + label {
+    top: 0;
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  .form-field-1 input::placeholder {
+    color: black; /* Cambia el color del borde cuando el input está enfocado */
+}
+.form-field-1 input:focus, .form-field-1 input:valid {
+  border-color: #6c757d; /* Cambia el color del borde al hacer clic o si el input tiene valor */
+}
+.form-field-1 input:not(:focus) + label {
+  border-color: #d1d1d1; /* Cambia el color del borde cuando el input no está enfocado */
+}
+.text-red-501 {
+  color: red; /* Asegura que el color del texto de error sea rojo */
+  font-size: 0.75rem; /* Tamaño de fuente del texto de error */
+  position: absolute;
+  top: calc(100% + -1.2rem); /* Ajusta la posición del texto de error */
+  left: 0.40rem; /* Ajusta la posición del texto de error */
+  font-family: "zen kaku gothic antique", sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .bg-logo {
+      background-position: top; /* Cambiar la posición para pantallas más pequeñas */
+      background-size: 50%;
+    }.bg-image{
+      background-position: center;
+      background-size: cover;
+    }
+    .custom-width{
+      width: auto;
+      transform: translateX(-75%);
+
+  }
+
+  .font-color-c {
+    position: fixed;
+    padding-top: 25%;
+  }
+  .custom-forget{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: "zen kaku gothic antique", sans-serif;
+  }
+  }
+
+  @media (max-width: 550px) {
+    .responsive-mobil{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1.5rem;
+    }
+    .reponsive-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .custom-mobil-img{
+      margin-bottom: 0rem;
+      height: 90px;
+    }
+    .custom-tittle-login{
+      margin-left: 0rem;
+      font-size: 1.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .custom-tittle-login2{
+      margin-left: 0rem;
+      font-size: 1.005rem;
+      margin-bottom: 2rem;
+    }
+    .custom-padding-form{
+      padding: 0rem;
+    }
+  }

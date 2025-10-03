@@ -1,0 +1,35 @@
+/* Estilos para el contenedor del input */
+.input-container {
+    position: relative;
+}
+
+/* Estilos para el asterisco */
+.input-container::after {
+    content: "*";
+    color: red; /* Color rojo */
+    position: absolute;
+    top: 42%;
+    right: 30.5vw; /* Ajusta el espacio entre el asterisco y el texto */
+    transform: translateY(-50%);
+    transition: opacity 0.3s; /* Agregar transición para suavizar el cambio */
+    opacity: 0;
+}
+
+/* Mostrar asterisco solo cuando el placeholder no está mostrado */
+.input-container input:not(:placeholder-shown) + span::after {
+    opacity: 1;
+}
+
+.font-zen{
+    font-family: "zen kaku gothic antique", sans-serif;
+}
+
+@keyframes spin-and-back {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(90deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.animate-spin-and-back {
+    animation: spin-and-back 2s forwards; /* Ajusta la duración de la animación según sea necesario */
+}

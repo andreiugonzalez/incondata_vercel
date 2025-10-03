@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "usr_prac2025",
+    "password": "Usr*2025.",
+    "database": "incondata_demo",
+    "host": "52.22.171.179",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,23 @@
+
+.progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70%;
+    height: 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .progress-bar::-webkit-progress-bar {
+    background-color: white; /* Color de fondo de la barra */
+    border-radius: 0.25rem;
+  }
+  
+  .progress-bar::-webkit-progress-value {
+    background-color: var(--progress-color); /* Color del progreso */
+    border-radius: 0.25rem;
+  }
+  
+  .progress-bar::-moz-progress-bar {
+    background-color: var(--progress-color); /* Color del progreso en Firefox */
+    border-radius: 0.25rem;
+  }

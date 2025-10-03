@@ -1,0 +1,14 @@
+.supervisor-mode input:not(.no-disable),
+.supervisor-mode select:not(.no-disable) {
+  pointer-events: none;
+  background-color: #f5f5f5;
+  color: #888;
+}
+
+.supervisor-mode .cursor-pointer {
+  cursor: not-allowed;
+}
+.allow-pointer-events {
+    pointer-events: auto;
+    user-select: none;
+  }

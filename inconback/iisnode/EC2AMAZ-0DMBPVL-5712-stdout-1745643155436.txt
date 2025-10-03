@@ -1,0 +1,35 @@
+Iniciando servidor...
+[35mEl servidor está configurado en modo: production[0m
+La programación de actualización de usuarios inactivos está desactivada.
+2025-04-26 00:52:37 [32minfo[39m: Server listening on port \\.\pipe\abb4757d-ecd9-473c-8e34-35735b38bf92
+Nuevo cliente conectado: Q4bUGe_F-fluGcK4AAAC desde undefined
+Nuevo cliente conectado al login socket: VQUR05ge07AXYVB7AAAD desde undefined
+2025-04-26 00:52:37 [32minfo[39m: Tablas sincronizadas con la base de datos.
+Cliente desconectado sin sesión activa: VQUR05ge07AXYVB7AAAD desde undefined
+Cliente desconectado: Q4bUGe_F-fluGcK4AAAC desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado al login socket: u49RWriBPPDkC3kaAAAG desde undefined
+Nuevo cliente conectado: Au4ksrCSRRZc3FC4AAAH desde undefined
+Cliente desconectado: Au4ksrCSRRZc3FC4AAAH desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: u49RWriBPPDkC3kaAAAG desde undefined
+Nuevo cliente conectado: MTxB5neQnEYV9e3NAAAK desde undefined
+Nuevo cliente conectado al login socket: nUmzrveUuyW6lf5dAAAL desde undefined
+Cliente desconectado: MTxB5neQnEYV9e3NAAAK desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: nUmzrveUuyW6lf5dAAAL desde undefined
+Nuevo cliente conectado: JHjjwY_NGEuey8cTAAAO desde undefined
+Nuevo cliente conectado al login socket: UFwoXEClFaDE3vhvAAAP desde undefined
+Cliente desconectado sin sesión activa: UFwoXEClFaDE3vhvAAAP desde undefined
+Cliente desconectado: JHjjwY_NGEuey8cTAAAO desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: FlXUvuyiPKUtTR-rAAAS desde undefined
+Nuevo cliente conectado al login socket: NgFucDA3gzOhQX7JAAAT desde undefined
+Cliente desconectado sin sesión activa: NgFucDA3gzOhQX7JAAAT desde undefined
+Cliente desconectado: FlXUvuyiPKUtTR-rAAAS desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}

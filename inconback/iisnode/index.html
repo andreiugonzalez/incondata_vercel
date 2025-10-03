@@ -1,0 +1,249 @@
+<!--
+    index.html - Visor de logs de iisnode
+
+    Este archivo HTML permite visualizar los logs generados por iisnode cuando ejecutas una app Node.js bajo IIS en Windows.
+    Muestra una tabla con los archivos de log (stdout y stderr) de cada proceso Node.js, permitiendo ver errores y salidas de consola fácilmente desde el navegador.
+
+    Estructura:
+    - Muestra: nombre del computador, PID del proceso, tipo de log (stdout/stderr), fecha de creación y un link para ver/descargar el log.
+    - El contenido de la tabla se rellena dinámicamente con JavaScript usando los datos de los archivos de log presentes en la carpeta.
+    - El estilo resalta los errores (stderr) en rojo para identificarlos rápido.
+
+    Útil para: debuggear tu app Node.js en producción sobre IIS, sin tener que buscar los archivos manualmente.
+-->
+
+<html>
+    <head>
+        <title>iisnode logs</title>
+        <style type="text/css">
+            body {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            td,
+            th {
+                border: 1px solid lightgray;
+                padding: 3px 7px 2px 7px;
+            }
+            th {
+                text-align: left;
+                padding-top: 5px;
+                padding-bottom: 4px;
+                background-color: Gray;
+                color: #ffffff;
+            }
+            td.stderr {
+                color: Red;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+        Tabla principal donde se mostrarán los logs.
+        Cada fila corresponde a un archivo de log generado por iisnode.
+    -->
+        <table id="logFilesTable">
+            <tr>
+                <th>Computer name</th>
+                <th>PID</th>
+                <th>Type</th>
+                <th>Created</th>
+                <th>Link</th>
+            </tr>
+        </table>
+        <p id="lastUpdated"></p>
+        <script type="text/javascript">
+            // logFiles: array generado dinámicamente con los archivos de log presentes en la carpeta.
+            // Cada objeto contiene: nombre del computador, PID, tipo (stdout/stderr), fecha de creación y nombre del archivo.
+            // Este array es reemplazado con datos reales en tiempo de ejecución por interceptor.js de iisnode.
+            var logFiles = [
+                {
+                    file: "EC2AMAZ-0DMBPVL-2380-stderr-1745861276141.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 2380,
+                    type: "stderr",
+                    created: 1745861276141,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-2380-stdout-1745861276136.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 2380,
+                    type: "stdout",
+                    created: 1745861276136,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-4472-stderr-1745658908990.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 4472,
+                    type: "stderr",
+                    created: 1745658908990,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-4472-stdout-1745658908983.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 4472,
+                    type: "stdout",
+                    created: 1745658908983,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-4740-stderr-1745868706452.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 4740,
+                    type: "stderr",
+                    created: 1745868706452,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-4740-stdout-1745868706447.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 4740,
+                    type: "stdout",
+                    created: 1745868706447,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-5452-stderr-1745664757096.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 5452,
+                    type: "stderr",
+                    created: 1745664757096,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-5452-stdout-1745664757090.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 5452,
+                    type: "stdout",
+                    created: 1745664757090,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-5712-stderr-1745643155443.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 5712,
+                    type: "stderr",
+                    created: 1745643155443,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-5712-stdout-1745643155436.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 5712,
+                    type: "stdout",
+                    created: 1745643155436,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-6040-stderr-1745668843124.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 6040,
+                    type: "stderr",
+                    created: 1745668843124,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-6040-stdout-1745668843119.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 6040,
+                    type: "stdout",
+                    created: 1745668843119,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-6256-stderr-1745837723665.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 6256,
+                    type: "stderr",
+                    created: 1745837723665,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-6256-stdout-1745837723660.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 6256,
+                    type: "stdout",
+                    created: 1745837723660,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-7232-stderr-1745834021054.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 7232,
+                    type: "stderr",
+                    created: 1745834021054,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-7232-stdout-1745834021044.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 7232,
+                    type: "stdout",
+                    created: 1745834021044,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-7464-stderr-1745824877726.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 7464,
+                    type: "stderr",
+                    created: 1745824877726,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-7464-stdout-1745824877722.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 7464,
+                    type: "stdout",
+                    created: 1745824877722,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-7796-stderr-1745772737448.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 7796,
+                    type: "stderr",
+                    created: 1745772737448,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-7796-stdout-1745772737441.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 7796,
+                    type: "stdout",
+                    created: 1745772737441,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-992-stderr-1745636099261.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 992,
+                    type: "stderr",
+                    created: 1745636099261,
+                },
+                {
+                    file: "EC2AMAZ-0DMBPVL-992-stdout-1745636099256.txt",
+                    computername: "EC2AMAZ-0DMBPVL",
+                    pid: 992,
+                    type: "stdout",
+                    created: 1745636099256,
+                },
+            ];
+            var lastUpdated = 1745868708461;
+            var date = new Date();
+
+            date.setTime(lastUpdated);
+            document.getElementById("lastUpdated").innerHTML =
+                "Index was last updated " + date;
+
+            // Ordena los logs por fecha de creación (más recientes primero)
+            logFiles.sort(function (a, b) {
+                return b.created - a.created;
+            });
+
+            var logFilesTable = document.getElementById("logFilesTable");
+            // Por cada archivo de log, crea una fila en la tabla con sus datos.
+            for (var i = 0; i < logFiles.length; i++) {
+                var logFile = logFiles[i];
+                date.setTime(logFile.created);
+                var row = logFilesTable.insertRow(-1);
+                var computerNameCell = row.insertCell(0);
+                var pidCell = row.insertCell(1);
+                var typeCell = row.insertCell(2);
+                var dateCell = row.insertCell(3);
+                var logCell = row.insertCell(4);
+                computerNameCell.innerHTML = logFile.computername;
+                pidCell.innerHTML = logFile.pid.toString();
+                typeCell.innerHTML = logFile.type;
+                typeCell.setAttribute("class", logFile.type);
+                dateCell.innerHTML = date.toString();
+                logCell.innerHTML = '<a href="' + logFile.file + '">log</a>';
+            }
+        </script>
+    </body>
+</html>

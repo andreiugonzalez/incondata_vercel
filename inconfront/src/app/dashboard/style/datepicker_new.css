@@ -1,0 +1,29 @@
+.customDatePickerWidth,
+.customDatePickerWidth > div.react-datepicker-wrapper,
+.customDatePickerWidth > div > div.react-datepicker__input-container,
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+  width: 100%;
+  z-index: 30 !important;
+}
+
+.customDatePickerWidth22,
+.customDatePickerWidth22 > div.react-datepicker-wrapper,
+.customDatePickerWidth22 > div > div.react-datepicker__input-container,
+.customDatePickerWidth22 > div > div.react-datepicker__input-container input {
+  width: 100%;
+  z-index: 9993 !important;
+}
+
+.custom-zindex{
+  z-index: 999 !important;
+}
+
+.custom-zindex2{
+  z-index: 9991 !important;
+}
+.custom-zindex3{
+  z-index: 9992 !important;
+}
+.custom-zindex4{
+  z-index: 9991 !important;
+}

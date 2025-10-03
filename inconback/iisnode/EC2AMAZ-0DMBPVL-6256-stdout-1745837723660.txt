@@ -1,0 +1,41 @@
+Iniciando servidor...
+[35mEl servidor está configurado en modo: production[0m
+La programación de actualización de usuarios inactivos está desactivada.
+2025-04-28 06:55:25 [32minfo[39m: Server listening on port \\.\pipe\5783ac1d-0a1c-4c2f-85a8-851d2bd34b77
+Nuevo cliente conectado al login socket: TRMqPjcp4o188BQqAAAC desde undefined
+Nuevo cliente conectado: iXAH94CoaAAms3G7AAAD desde undefined
+2025-04-28 06:55:26 [32minfo[39m: Tablas sincronizadas con la base de datos.
+Cliente desconectado: iXAH94CoaAAms3G7AAAD desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: TRMqPjcp4o188BQqAAAC desde undefined
+Nuevo cliente conectado al login socket: qAbirMaj-vzrK5lhAAAG desde undefined
+Nuevo cliente conectado: fw5G5A7kn3JBhWUiAAAH desde undefined
+Cliente desconectado: fw5G5A7kn3JBhWUiAAAH desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: qAbirMaj-vzrK5lhAAAG desde undefined
+Nuevo cliente conectado: 7PWi6bkEfwGCKaecAAAK desde undefined
+Nuevo cliente conectado al login socket: BRaNSGF6mTwdWrcsAAAL desde undefined
+Cliente desconectado: 7PWi6bkEfwGCKaecAAAK desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: BRaNSGF6mTwdWrcsAAAL desde undefined
+Nuevo cliente conectado al login socket: HLgpjN2jG5W_w-n8AAAO desde undefined
+Nuevo cliente conectado: SKFA_gC-bcyQD1c5AAAP desde undefined
+Cliente desconectado sin sesión activa: HLgpjN2jG5W_w-n8AAAO desde undefined
+Cliente desconectado: SKFA_gC-bcyQD1c5AAAP desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: CkWOZmzwZq3PHSVlAAAS desde undefined
+Nuevo cliente conectado al login socket: IPh2Ru_N_Gi70nvFAAAT desde undefined
+Cliente desconectado sin sesión activa: IPh2Ru_N_Gi70nvFAAAT desde undefined
+Cliente desconectado: CkWOZmzwZq3PHSVlAAAS desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado al login socket: bT3XhfKBidHGUBl3AAAW desde undefined
+Nuevo cliente conectado: vWzRCecxP2-H9cisAAAX desde undefined
+Cliente desconectado: vWzRCecxP2-H9cisAAAX desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: bT3XhfKBidHGUBl3AAAW desde undefined

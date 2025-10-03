@@ -1,0 +1,35 @@
+Iniciando servidor...
+[35mEl servidor está configurado en modo: production[0m
+La programación de actualización de usuarios inactivos está desactivada.
+2025-04-27 12:52:21 [32minfo[39m: Server listening on port \\.\pipe\cbe8cf74-cce3-4640-9316-e8b1f6ebfa53
+Nuevo cliente conectado al login socket: JquUZy0WmgNioe5bAAAC desde undefined
+Nuevo cliente conectado: uoi1nOwNcbm2Lsh8AAAD desde undefined
+2025-04-27 12:52:21 [32minfo[39m: Tablas sincronizadas con la base de datos.
+Cliente desconectado sin sesión activa: JquUZy0WmgNioe5bAAAC desde undefined
+Cliente desconectado: uoi1nOwNcbm2Lsh8AAAD desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado al login socket: f9268vRoh020JebeAAAG desde undefined
+Nuevo cliente conectado: -2ySa1sIcc5FMmoQAAAH desde undefined
+Cliente desconectado sin sesión activa: f9268vRoh020JebeAAAG desde undefined
+Cliente desconectado: -2ySa1sIcc5FMmoQAAAH desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: XrXA7wsw0ZyyBa7sAAAK desde undefined
+Nuevo cliente conectado al login socket: tW--JXqPF1bOs3JLAAAL desde undefined
+Cliente desconectado: XrXA7wsw0ZyyBa7sAAAK desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: tW--JXqPF1bOs3JLAAAL desde undefined
+Nuevo cliente conectado al login socket: qufn916ystHjDLreAAAO desde undefined
+Nuevo cliente conectado: DIusL_gbnOqCT4L1AAAP desde undefined
+Cliente desconectado: DIusL_gbnOqCT4L1AAAP desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: qufn916ystHjDLreAAAO desde undefined
+Nuevo cliente conectado: EwLNiyuSjFfvP7ZCAAAS desde undefined
+Nuevo cliente conectado al login socket: -iC9tQ87Iktl7eopAAAT desde undefined
+Cliente desconectado sin sesión activa: -iC9tQ87Iktl7eopAAAT desde undefined
+Cliente desconectado: EwLNiyuSjFfvP7ZCAAAS desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}

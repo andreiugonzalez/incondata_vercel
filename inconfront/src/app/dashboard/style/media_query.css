@@ -1,0 +1,927 @@
+@media (max-width: 1080px) {
+    .custom-class-user {
+      max-width: 76vw;
+    }
+
+/* Media queries para usuarios dashboard - Mobile optimizations */
+@media (max-width: 1023px) {
+  .custom-button-user {
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .custom-button-user button {
+    width: 3rem !important;
+    height: 3rem !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-user-search {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 1rem;
+  }
+  
+  .custom-user-search input {
+    font-size: 1rem !important;
+    padding: 0.75rem !important;
+  }
+  
+  .custom-user-search select {
+    font-size: 1rem !important;
+    padding: 0.75rem !important;
+    width: 100% !important;
+  }
+}
+    .custom-width{
+        width: auto;
+    }
+    .custom-width-circular{
+        min-width: 34.3vw;
+    }
+    .custom-progress{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .custom-form1{
+      padding-top: 2vh;
+      padding-left: 0;
+    }
+    .custom-telefono{
+      width: auto;
+    }
+    .custom-perfil{
+      grid-column: span 2 / span 2;
+    }
+    .custom-form3{
+      padding-top: 1vh;
+      padding-left: 8px;
+    }
+    .custom-button-document{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .custom-sidebar{
+      width: 48vw;
+    }
+    .custom-nodos{
+      width: 100%;
+      padding-left: 0;
+    }
+    .custom-avance{
+      display: flex;
+    }
+    .custom-prevencion{
+      max-width: 70vw;
+    }
+    .custom-form-proyect1{
+      padding-top: 1vh;
+      padding-left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    .custom-form-proyect2{
+      padding-top: 15vh;
+      padding-left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    .custom-documento-a1{
+      padding-top: 23px;
+    }
+    .custom-form-proyect3{
+      padding-top: 15vh;
+      padding-left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    .custom-tablet-responsive {
+      display: flex;
+      flex-direction: row; /* Mantiene la dirección en fila */
+      flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+      width: 100%; /* Ocupa todo el ancho del contenedor */
+      align-items: flex-start; /* Alinea los elementos al inicio de la línea */
+      gap: 1rem; /* Espacio entre los elementos */
+      height: auto; /* Permite que la altura se ajuste automáticamente */
+      top: 0;
+    }
+    .custom-card {
+      display: flex;
+      flex-direction: row; /* Mantiene los ítems dentro de cada "card" en una fila */
+      align-items: center; /* Alinea verticalmente los ítems */
+      gap: 0.5rem; /* Espacio entre el ícono y el texto */
+      width: auto; /* Deja que el ancho de cada "card" se ajuste automáticamente */
+      flex: 1 1 45%; /* Los ítems ocuparán aproximadamente el 45% del ancho y se ajustarán */
+    }
+    .custom-form-sumalzada{
+      display: flex;
+    }
+    .custom-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 76vw;
+
+    }
+    .custom-login-1{
+      padding: 0rem;
+    }
+    .custom-doc2{
+      width: 90%;
+    }
+
+  }
+  .custom-buton-carpetas2{
+    display: none;
+  }
+
+  @media (max-width: 550px) {
+    .custom-buton-carpetas{
+      display: none;
+    }
+    .custom-buton-carpetas2{
+      display: flex;
+    }
+    .custom-buton-carpetas3{
+      display: flex;
+      padding-right: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .custom-class-user {
+      max-width: 90vw;
+      padding: 1rem;
+    }
+    .custom-label-user{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .custom-button-user{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+    .custom-order-button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .custom-order-button .absolute {
+      left: 0;
+      transform: none;
+      width: 100%;
+      margin-top: 3rem;
+  }
+  .custom-filter{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .custom-doc{
+    width: 100%;
+  }
+  .custom-doc2{
+    width: 90%;
+  }
+  .custom-document-carpetas{
+    display: flex;
+    flex-direction: column;
+  }
+    .custom-user-search{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+    .custom-user-search1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+    .custom-input-user{
+      width: 100%;
+    }
+    .custom-select-user{
+      padding-left: 2rem;
+      padding-right: 3rem;
+      margin-left: 0rem;
+    }
+    .custom-select-user1{
+      padding-left: 2rem;
+      padding-right: 3rem;
+      margin-left: 0rem;
+      width: 100%;
+    }
+    .custom-border-user{
+      border: 1px solid #5c7891;
+      width: 100%;
+    }
+    .custom-width{
+        width: auto;
+    }
+    .custom-width-circular{
+      min-width: 34.3vw;
+    }
+    .custom-progress{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .custom-form1{
+      padding-top: 1vh;
+      padding-left: 0;
+    }
+    .custom-telefono{
+      width: auto;
+    }
+    .custom-perfil{
+      grid-column: span 2 / span 2;
+    }
+    .custom-form3{
+      padding-top: 20vh;
+      padding-left: 8px;
+    }
+    .custom-button-document{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .custom-sidebar{
+      width: 56vw;
+    }
+    .custom-document-nodos{
+      display: flex;
+      flex-direction: column;
+    }
+    .custom-document-nodos1{
+      margin-left: 0.1rem;
+    }
+    .custom-comment-nodos{
+      display: flex;
+      flex-direction: column;
+    }
+    .custom-comment-nodos2{
+      padding-right: 0.25rem;
+      padding-left: 0.25rem;
+    }
+    .custom-nodos{
+      width: 100%;
+      padding-left: 0;
+    }
+    .custom-avance{
+      display: flex;
+    }
+    .custom-prevencion{
+      max-width: 70vw;
+    }
+    .custom-form-proyect1{
+      padding-top: 1vh;
+      padding-left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    .custom-form-proyect2{
+      padding-top: 25vh;
+      padding-left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    .custom-documento-a1{
+      padding-top: 23px;
+    }
+    .custom-form-proyect3{
+      padding-top: 25vh;
+      padding-left: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+    .custom-tablet-responsive {
+      display: flex;
+      flex-direction: row; /* Mantiene la dirección en fila */
+      flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+      width: 100%; /* Ocupa todo el ancho del contenedor */
+      align-items: flex-start; /* Alinea los elementos al inicio de la línea */
+      gap: 1rem; /* Espacio entre los elementos */
+      height: auto; /* Permite que la altura se ajuste automáticamente */
+      top: 0;
+    }
+    .custom-card {
+      display: flex;
+      flex-direction: row; /* Mantiene los ítems dentro de cada "card" en una fila */
+      align-items: center; /* Alinea verticalmente los ítems */
+      gap: 0.5rem; /* Espacio entre el ícono y el texto */
+      width: auto; /* Deja que el ancho de cada "card" se ajuste automáticamente */
+      flex: 1 1 45%; /* Los ítems ocuparán aproximadamente el 45% del ancho y se ajustarán */
+    }
+    .custom-form-sumalzada{
+      display: flex;
+    }
+    .custom-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 76vw;
+
+    }
+
+    .sidebar-hidden {
+      width: 0rem;
+      transition: width 0.3s ease, opacity 0.3s ease;
+    }
+
+    .sidebar-expanded{
+      width: 20rem;
+      transition: width 0.3s ease, opacity 0.3s ease;
+    }
+
+    .sidebar-content {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+    }
+
+    .mobile-toggle-icon {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 10001;
+      display: block;
+    }
+    .sidebar-toggle-icon{
+      display: none;
+    }
+    .custom-login-form-user{
+      display: none;
+    }
+    .custom-login-1{
+      padding: 0rem;
+    }
+    .custom-dash-prev{
+      display: grid;
+      grid-column: 1;
+    }
+    .custom-dash-preve-1{
+      max-width: 90vw;
+    }
+
+    .custom-list-mobil{
+      display: none;
+    }
+    .custom-nodos{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .custom-form-project{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+  }
+
+  @media (min-width: 560px) {
+    .mobile-toggle-icon {
+      display: none;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .mobile-sidebar-expanded {
+      width: 15rem;
+      opacity: 1;
+      position: fixed;
+      z-index: 10000;
+      transition: width 0.3s ease, opacity 0.3s ease;
+    }
+
+    .mobile-sidebar-hidden {
+      width: 0rem;
+      opacity: 0;
+      position: fixed;
+      z-index: 10000;
+      transition: width 0.3s ease, opacity 0.3s ease;
+    }
+  }
+  @media (max-width: 1600px) {
+    .chart-container {
+      width: 6rem;
+      height: 6rem;
+    }
+    .chart-text{
+      font-size: 1rem;
+    }
+    .custom-chart-porcentaje{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .custom-text-estimado{
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .chart-container {
+      width: 6rem;
+      height: 6rem;
+    }
+    .chart-text{
+      font-size: 1rem;
+    }
+    .custom-chart-porcentaje{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 1300px) {
+    .chart-container {
+      width: 6rem;
+      height: 6rem;
+    }
+    .chart-text{
+      font-size: 1rem;
+    }
+    .custom-chart-porcentaje{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+@media (max-width: 768px) {
+    .custom-progress{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      top: 0;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    
+    .custom-form-proyect1{
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 0;
+      margin-top: 0 !important;
+      width: 100%;
+    }
+    
+    .custom-form-proyect2{
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 0;
+      margin-top: 0 !important;
+      width: 100%;
+    }
+    
+    .custom-partidas-container {
+      flex-direction: column;
+    }
+    
+    .custom-partidas-progress {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .custom-partidas-form {
+      width: 100%;
+      margin-left: 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .custom-partidas-container {
+      flex-direction: row;
+    }
+    
+    .custom-partidas-progress {
+      width: 25%;
+      margin-right: 20px;
+    }
+    
+    .custom-partidas-form {
+      width: 75%;
+    }
+}
+
+/* ===== MOBILE FIRST RESPONSIVE SYSTEM ===== */
+
+/* Base styles (mobile first) */
+.custom-form-container {
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.custom-input-group {
+    transition: all 0.3s ease;
+}
+
+.custom-input-group .basic-single {
+    font-size: 14px;
+}
+
+.custom-input-group input {
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+/* Mejorar espaciado en móvil */
+.custom-form-container .flex.flex-wrap.mb-6 {
+    margin-bottom: 1rem;
+}
+
+.custom-form-container .px-3 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) {
+    .custom-form-container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .custom-input-group {
+        gap: 0.75rem;
+    }
+    
+    .custom-input-group .basic-single {
+        font-size: 16px;
+    }
+    
+    .custom-input-group input {
+        font-size: 16px;
+        padding: 0.75rem;
+    }
+    
+    .custom-form-container .px-3 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+/* Desktop (1080px and up) */
+@media (min-width: 1080px) {
+    .custom-form-container {
+        margin: 1.5rem auto;
+        padding: 2rem;
+    }
+    
+    .custom-input-group {
+        gap: 1rem;
+    }
+}
+
+/* Wide screens (1440px and up) */
+@media (min-width: 1440px) {
+    .custom-form-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+    }
+}
+
+/* ===== EXISTING STYLES ===== */
+
+/* Extra Small Devices (phones, 475px and down) */
+@media (max-width: 475px) {
+  .custom-sidebar {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 9999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-sidebar.active {
+    transform: translateX(0);
+  }
+  
+  .mobile-toggle-icon {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10001;
+    display: block;
+    background: #5c7891;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-toggle-icon {
+    display: none;
+  }
+  
+  /* Form optimizations for extra small screens */
+  .custom-form-container {
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  .custom-input-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .custom-input-group > div {
+    width: 100% !important;
+  }
+  
+  /* Button optimizations */
+  .custom-button-group {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  
+  .custom-button-group button {
+    width: 100%;
+    padding: 0.875rem;
+    font-size: 1rem;
+  }
+  
+  /* Table optimizations */
+  .custom-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .custom-table-container table {
+    min-width: 600px;
+  }
+  
+  /* Mobile table card view */
+  .mobile-table-card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mobile-table-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+  }
+  
+  .mobile-table-card-title {
+    font-weight: 600;
+    color: #111827;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .mobile-table-card-subtitle {
+    font-size: 0.75rem;
+    color: #6b7280;
+  }
+  
+  .mobile-table-card-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .mobile-table-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .mobile-table-card-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+  }
+  
+  .mobile-table-card-label {
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .mobile-table-card-value {
+    color: #6b7280;
+    text-align: right;
+    flex: 1;
+    margin-left: 1rem;
+  }
+  
+  /* Dashboard cards */
+  .custom-dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .custom-chart-container {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  /* Search and filter improvements */
+  .custom-search-container {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .custom-search-input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.875rem;
+  }
+  
+  .custom-filter-select {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.875rem;
+  }
+}
+
+/* Small Devices (landscape phones, 576px and up) */
+@media (min-width: 476px) and (max-width: 767px) {
+  .custom-sidebar {
+    width: 280px;
+  }
+  
+  .mobile-toggle-icon {
+    display: block;
+  }
+  
+  .custom-dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .custom-form-container {
+    padding: 1.5rem;
+  }
+  
+  .custom-input-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .custom-input-group > div:first-child {
+    width: 100%;
+  }
+  
+  .custom-input-group > div:not(:first-child) {
+    width: calc(50% - 0.5rem);
+  }
+}
+
+/* Medium Devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mobile-toggle-icon {
+    display: none;
+  }
+  
+  .sidebar-toggle-icon {
+    display: block;
+  }
+  
+  .custom-sidebar {
+    width: 240px;
+    position: relative;
+    transform: none;
+    transition: width 0.3s ease;
+  }
+  
+  .custom-sidebar.collapsed {
+    width: 80px;
+  }
+  
+  .custom-dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .custom-form-container {
+    padding: 2rem;
+  }
+  
+  .custom-input-group {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  
+  .custom-input-group > div {
+    flex: 1;
+  }
+  
+  .custom-table-container {
+    overflow-x: visible;
+  }
+}
+
+/* Large Devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .mobile-toggle-icon {
+    display: none;
+  }
+  
+  .sidebar-toggle-icon {
+    display: block;
+  }
+  
+  .custom-sidebar {
+    width: 280px;
+    position: relative;
+    transform: none;
+  }
+  
+  .custom-dashboard-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  .custom-chart-container {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+    .custom-progress{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      top: 0;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    
+    .custom-form-proyect1{
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 0;
+      margin-top: 0 !important;
+      width: 100%;
+    }
+    
+    .custom-form-proyect2{
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 0;
+      margin-top: 0 !important;
+      width: 100%;
+    }
+    
+    .custom-partidas-container {
+      flex-direction: column;
+    }
+    
+    .custom-partidas-progress {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .custom-partidas-form {
+      width: 100%;
+      margin-left: 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .custom-partidas-container {
+      flex-direction: row;
+    }
+    
+    .custom-partidas-progress {
+      width: 25%;
+      margin-right: 20px;
+    }
+    
+    .custom-partidas-form {
+      width: 75%;
+    }
+}

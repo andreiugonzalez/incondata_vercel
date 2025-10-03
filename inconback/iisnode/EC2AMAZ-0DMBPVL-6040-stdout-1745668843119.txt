@@ -1,0 +1,67 @@
+Iniciando servidor...
+[35mEl servidor está configurado en modo: production[0m
+La programación de actualización de usuarios inactivos está desactivada.
+2025-04-26 08:00:45 [32minfo[39m: Server listening on port \\.\pipe\7c6bc564-756a-4a1f-bb22-11ea5f45d002
+Nuevo cliente conectado: -CtgFJLR5UKDKlRaAAAC desde undefined
+Nuevo cliente conectado al login socket: OpoeYTuQKNqYVIzgAAAD desde undefined
+2025-04-26 08:00:45 [32minfo[39m: Tablas sincronizadas con la base de datos.
+Cliente desconectado sin sesión activa: OpoeYTuQKNqYVIzgAAAD desde undefined
+Cliente desconectado: -CtgFJLR5UKDKlRaAAAC desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: ZYYDO70DwkXX0XPAAAAG desde undefined
+Nuevo cliente conectado al login socket: _i-IbYeNHimhsKbhAAAH desde undefined
+Cliente desconectado sin sesión activa: _i-IbYeNHimhsKbhAAAH desde undefined
+Cliente desconectado: ZYYDO70DwkXX0XPAAAAG desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado al login socket: x_qJt_o9CqDMo9fTAAAK desde undefined
+Nuevo cliente conectado: y7H0uwHFF8WAlynhAAAL desde undefined
+Cliente desconectado sin sesión activa: x_qJt_o9CqDMo9fTAAAK desde undefined
+Cliente desconectado: y7H0uwHFF8WAlynhAAAL desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: Jl-ZDSjmiYiPcj3FAAAO desde undefined
+Nuevo cliente conectado al login socket: 9M-RpFbYZbZJaCRPAAAP desde undefined
+Cliente desconectado: Jl-ZDSjmiYiPcj3FAAAO desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: 9M-RpFbYZbZJaCRPAAAP desde undefined
+Nuevo cliente conectado: uQHQR2n985te8_swAAAS desde undefined
+Nuevo cliente conectado al login socket: TPVMnTVuLpNbFo6pAAAT desde undefined
+Cliente desconectado sin sesión activa: TPVMnTVuLpNbFo6pAAAT desde undefined
+Cliente desconectado: uQHQR2n985te8_swAAAS desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: zxqup7zqQXGeFft_AAAW desde undefined
+Nuevo cliente conectado al login socket: Ale5qRyEnM7uiTJQAAAX desde undefined
+Cliente desconectado sin sesión activa: Ale5qRyEnM7uiTJQAAAX desde undefined
+Cliente desconectado: zxqup7zqQXGeFft_AAAW desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: S9MoYXwM8LuUFypiAAAa desde undefined
+Nuevo cliente conectado al login socket: 2w7T-m9qYnhAnqP_AAAb desde undefined
+Cliente desconectado: S9MoYXwM8LuUFypiAAAa desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: 2w7T-m9qYnhAnqP_AAAb desde undefined
+Nuevo cliente conectado al login socket: xnUzNg_I7laQjW7mAAAe desde undefined
+Nuevo cliente conectado: 9jpbTy8G-csV1FktAAAf desde undefined
+Cliente desconectado: 9jpbTy8G-csV1FktAAAf desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: xnUzNg_I7laQjW7mAAAe desde undefined
+Nuevo cliente conectado: XSJH7p_ifayyHVB_AAAi desde undefined
+Nuevo cliente conectado al login socket: 4Xim0awBNceASTwoAAAj desde undefined
+Cliente desconectado sin sesión activa: 4Xim0awBNceASTwoAAAj desde undefined
+Cliente desconectado: XSJH7p_ifayyHVB_AAAi desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado al login socket: uWbBFpj8XjyrGNFhAAAm desde undefined
+Nuevo cliente conectado: VZBDvPrBCgwPVgOHAAAn desde undefined
+Cliente desconectado: VZBDvPrBCgwPVgOHAAAn desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: uWbBFpj8XjyrGNFhAAAm desde undefined
+Nuevo cliente conectado: ja4E8Va01Aj0HPTdAAAq desde undefined
+Nuevo cliente conectado al login socket: xDjh0ye26DBULrrSAAAr desde undefined

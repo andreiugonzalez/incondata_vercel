@@ -1,0 +1,19 @@
+Iniciando servidor...
+[35mEl servidor está configurado en modo: production[0m
+La programación de actualización de usuarios inactivos está desactivada.
+2025-04-28 15:31:48 [32minfo[39m: Server listening on port \\.\pipe\e618f0fb-1bda-4496-a8cc-f4674eecfa6a
+Nuevo cliente conectado: D4Qc9qA08ENk8qvFAAAC desde undefined
+Nuevo cliente conectado al login socket: K3cR59qT4Daqq1UEAAAD desde undefined
+2025-04-28 15:31:49 [32minfo[39m: Tablas sincronizadas con la base de datos.
+Cliente desconectado: D4Qc9qA08ENk8qvFAAAC desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Cliente desconectado sin sesión activa: K3cR59qT4Daqq1UEAAAD desde undefined
+Nuevo cliente conectado: Nl3bMmOvtYWgFB-9AAAG desde undefined
+Nuevo cliente conectado al login socket: rVgyxLMgBtW1KvFtAAAH desde undefined
+Cliente desconectado sin sesión activa: rVgyxLMgBtW1KvFtAAAH desde undefined
+Cliente desconectado: Nl3bMmOvtYWgFB-9AAAG desde undefined
+Usuarios registrados: {}
+Proyectos registrados: {}
+Nuevo cliente conectado: zvrErMeYAyZ3YhgwAAAK desde undefined
+Nuevo cliente conectado al login socket: wbLHpgIQqNcFFVXAAAAL desde undefined

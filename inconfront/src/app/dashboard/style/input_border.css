@@ -1,0 +1,28 @@
+.input-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px dashed #87ACA7;
+    border-bottom: 1px dashed #87ACA7;
+    border-left: 1px dashed #87ACA7;
+    border-right: 1px dashed #87ACA7;
+    border-radius: 6%;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.input-container.group:hover button,
+.input-container.group:hover .filter-icon {
+    color: #4FD1C5; 
+}
+.input-container:hover::before {
+    border-color: #4FD1C5; 
+}
+
+.input-container {
+    width: 30%; 
+    overflow: hidden; 
+}

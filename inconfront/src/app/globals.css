@@ -1,0 +1,298 @@
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind base;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind components;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+/* Estilos para el contenedor principal */
+.align-right {
+  margin-left: auto !important;
+  margin-right: 10% !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .align-right {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+    width: 90% !important;
+  }
+  
+  .custom-width-create {
+    width: 100% !important;
+  }
+  
+  .border-login {
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.align-center-right {
+  margin-left: 0%; /* Ajusta este valor según lo centrado que lo quieras */
+  margin-right: 0 !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Estilos para centrar la alerta de Chrome */
+.chrome-password-alert {
+  position: fixed !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 9999 !important;
+  margin-top: 1rem !important;
+}
+
+/* Asegurarse que la alerta de Chrome esté por encima de otros elementos */
+#chrome-password-warning {
+  position: fixed !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 9999 !important;
+  margin-top: 1rem !important;
+}
+
+/* Ocultar flechas automáticas del navegador en elementos del sidebar */
+.sidebar-item::after,
+.sidebar-item::before,
+li.sidebar-item::after,
+li.sidebar-item::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Ocultar marcadores automáticos de lista */
+.sidebar-item,
+li.sidebar-item {
+  list-style: none !important;
+}
+
+/* Ocultar flechas de dropdown automáticas */
+.sidebar-item::-webkit-details-marker,
+li.sidebar-item::-webkit-details-marker {
+  display: none !important;
+}
+
+/* Ocultar cualquier pseudo-elemento que pueda generar flechas */
+li::marker,
+ul li::marker {
+  content: none !important;
+  display: none !important;
+}
+
+/* Específico para elementos del sidebar */
+nav li::marker,
+nav ul li::marker,
+aside li::marker,
+aside ul li::marker {
+  content: none !important;
+  display: none !important;
+}
+
+/* Estilos más específicos para ocultar flechas en elementos del sidebar */
+nav li::after,
+nav li::before,
+.sidebar li::after,
+.sidebar li::before,
+aside li::after,
+aside li::before,
+[class*="SidebarItem"] button::after,
+[class*="SidebarItem"] a::after,
+[class*="SidebarItem"] div::after {
+  display: none !important;
+  content: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Estilos globales para ocultar cualquier flecha automática */
+*::marker,
+*[class*="dropdown"]::after,
+*[class*="Dropdown"]::after {
+  content: none !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Ocultar indicadores de dropdown */
+.dropdown-indicator,
+.dropdown-arrow,
+[role="button"]::after,
+button::after,
+a[href]::after,
+[data-hide-dropdown="true"]::after,
+[data-hide-dropdown="true"] > *::after {
+  display: none !important;
+  content: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Ocultar todos los indicadores de dropdown en el sidebar */
+.sidebar button::after,
+.sidebar [role="button"]::after,
+.sidebar a::after,
+.sidebar div::after,
+.sidebar-item::after,
+.sidebar-item::before,
+.sidebar-item *::after,
+.sidebar-item *::before,
+[data-hide-dropdown="true"]::after,
+[data-hide-dropdown="true"]::before,
+[data-hide-dropdown="true"] *::after,
+[data-hide-dropdown="true"] *::before {
+  display: none !important;
+  content: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+[class*="SidebarItemWithDropdown"] > div > ul::before,
+[class*="SidebarItemWithDropdown"] > div > ul::after,
+[class*="SidebarItem"] > *::before,
+[class*="SidebarItem"] > *::after,
+[class*="sidebar"] [role="button"]::after,
+[class*="sidebar"] button::after,
+nav button::after,
+aside button::after {
+  display: none !important;
+  content: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.chevron-down,
+.chevron-up {
+  display: none !important;
+}
+
+/* Estilos específicos para elementos que contienen texto Dashboard, Correo, Documentos */
+li[class*="sidebar"]:has-text("Dashboard")::after,
+li[class*="sidebar"]:has-text("Correo")::after,
+li[class*="sidebar"]:has-text("Documentos")::after,
+span:contains("Dashboard") + *::after,
+span:contains("Correo") + *::after,
+span:contains("Documentos") + *::after {
+  display: none !important;
+}
+
+/* Forzar la eliminación de cualquier pseudo-elemento en elementos del sidebar */
+nav *::after,
+nav *::before,
+aside *::after,
+aside *::before {
+  content: none !important;
+}
+
+/* Específico para elementos con clase que contenga 'sidebar' */
+[class*="sidebar"] *::after,
+[class*="sidebar"] *::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Hide only unwanted arrows, keep sidebar toggle arrows */
+
+/* Hide any ChevronDown icons in dropdown buttons - more specific and comprehensive */
+svg[data-lucide="chevron-down"],
+svg[data-lucide="chevron-up"],
+svg[data-lucide="chevron-left"],
+svg[data-lucide="chevron-right"],
+.lucide-chevron-down,
+.lucide-chevron-up,
+.lucide-chevron-left,
+.lucide-chevron-right,
+/* Target Lucide React ChevronDown components directly */
+svg.lucide.lucide-chevron-down,
+svg.lucide.lucide-chevron-up,
+svg.lucide.lucide-chevron-left,
+svg.lucide.lucide-chevron-right {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Hide all chevron icons in sidebar and navigation areas */
+nav svg[data-lucide*="chevron"],
+aside svg[data-lucide*="chevron"],
+.sidebar svg[data-lucide*="chevron"],
+[class*="sidebar"] svg[data-lucide*="chevron"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Hide list markers */
+ul li::marker,
+ol li::marker,
+li::marker {
+  display: none !important;
+  content: none !important;
+}
+
+/* More targeted approach for navigation pseudo-elements - exclude sidebar toggle */
+nav li::before,
+nav li::after,
+aside li::before,
+aside li::after,
+.sidebar li::before,
+.sidebar li::after {
+  display: none !important;
+  content: none !important;
+  visibility: hidden !important;
+}
+
+/* Ocultar scrollbars en un elemento y todos sus descendientes */
+.hide-scrollbar-all,
+.hide-scrollbar-all * {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar-all::-webkit-scrollbar,
+.hide-scrollbar-all *::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}

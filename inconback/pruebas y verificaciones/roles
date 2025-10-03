@@ -1,0 +1,197 @@
+
+Rol 
+
+Funciones Clave 
+
+Herramientas/Módulos que Usa 
+
+Ruta Dashboard
+
+Superadmin 
+
+Sistema Publico 
+
+Gestión global del sistema, creación de empresas/usuarios, configuración, dashboards críticos 
+
+Panel general, administración de usuarios, config 
+
+/dashboard/users
+
+Administrador – 
+
+Sistema publico – Informatico de municipalidad .  
+
+Gestión de usuarios y proyectos de su empresa, soporte básico, supervisión de equipos 
+
+Dashboard administración, asignación de roles 
+
+/dashboard/users
+
+Superintendente- 
+
+ALCALDIA - Alcalde 
+
+SECPLAC – Secretaria de planificación  
+
+Monitoreo de KPIs (costo, plazo, calidad, seguridad), revisión de reportes, decisiones estratégicas 
+
+Dashboard gerencial, informes, gráficos, reportes 
+
+/dashboard/dashboardproyect
+
+Supervisor 
+
+DOM – Director de obras  
+
+Organización y supervisión diaria del equipo en terreno, reporte de avances, control calidad 
+
+Plan de trabajo diario, checklists, reporting 
+
+/dashboard/dashboardproyect
+
+ITO (Inspector Técnico) 
+
+Inspector de obras – Deberá validar y Registrar avances en el sistema Insertar funciones de contratista y unificar el Rol( revisar ) 
+
+Validación de tareas, control de calidad, gestión de no conformidades, planificación 
+
+Panel calidad, checklists, Gantt, Libro Digital 
+
+/dashboard/dashboardproyect
+
+Contratista – Inspector de Obras -  Debera completar los avances de la Obra . 
+
+Ejecución de tareas, reporte de avances, asignación de cuadrilla, gestión financiera limitada 
+
+Dashboard tareas, asignación equipo, reporting 
+
+/dashboard/dashboardproyect
+
+Planner- NO VA EN SISTEMA PUBLICO 
+
+Planificación y secuencia de actividades, monitoreo de avances, reprogramación 
+
+Diagrama Gantt, dashboard de partidas 
+
+NO APLICA
+
+Prevencionista- NO VA EN SISTEMA PUBLICO. 
+
+Gestión de seguridad en obra, inspección, investigación de incidentes, registro de charlas 
+
+Dashboard seguridad, reportes incidentes, registro 
+
+NO APLICA 
+
+Adicional, se deberá crear un rol básico para gestor documental  
+
+Este rol se llamará (proyectista) podrá solo tener un repositorio de la información documental del ante proyecto. Planos, documentos legales, etc . 
+
+Este rol deberá ser supervisado por los roles de ALCALDIA Y SECRETARIA DE PLANIFICACIÓN. (ex super intendentes). Y reportar de los avances de proyectos, pero solo en diseño y arquitectura. NO en ejecución presupuestaria ni tampoco inspección de ITO en terreno, Ya que no tendrá a cargo proyectos en ejecución, solo ingeniería, diseño y presupuestos, previo a licitaciones.  
+
+ 
+
+Los roles que alimentan el sistema serán :  
+
+ 
+
+ITO municipal , podrá completar los avances del contratista , proyecto en ejecución de obras  ( idealmente ingresar avances de forma manual  ) sin la combinación matemática del dashboar ( revisar ) idealmente que ponga porcentaje de avance planeado , real , avances físicos y financieros . Con evidencias fotográficas y documentos asociados de respaldo .  Los roles que deberán supervisar estos avances son : DOM ( Es aquel rol que deberá dar visto bueno previo a la revisión de roles como : ALCALDIA  y SECRETARIA PLANIFICACIÓN . 
+
+Rol proyectista : este Rol deberá reportar en plataforma los ante proyectos de arquitectura e ingeniería , previo a su licitación . Esta información también deberá revisarla el rol de Secretaria planificación y alcaldía .
+
+================================================================================
+RESUMEN DE ROLES, RUTAS Y FUNCIONES DEL SISTEMA
+================================================================================
+
+ROLES ACTIVOS EN SISTEMA PÚBLICO:
+
+1. SUPERADMIN
+   Ruta: /dashboard/users
+   Funciones:
+   - Gestión global del sistema
+   - Creación de empresas y usuarios
+   - Configuración general del sistema
+   - Acceso a dashboards críticos
+   - Panel general de administración
+
+2. ADMINISTRADOR (Informático de municipalidad)
+   Ruta: /dashboard/users
+   Funciones:
+   - Gestión de usuarios y proyectos de su empresa
+   - Soporte básico del sistema
+   - Supervisión de equipos
+   - Asignación de roles
+   - Dashboard de administración
+
+3. SUPERINTENDENTE (Alcalde / Secretario de Planificación)
+   Ruta: /dashboard/dashboardproyect
+   Funciones:
+   - Monitoreo de KPIs (costo, plazo, calidad, seguridad)
+   - Revisión de reportes ejecutivos
+   - Toma de decisiones estratégicas
+   - Supervisión de proyectistas y avances ITO
+   - Dashboard gerencial con informes y gráficos
+
+4. SUPERVISOR (Director de Obras - DOM)
+   Ruta: /dashboard/dashboardproyect
+   Funciones:
+   - Organización y supervisión diaria del equipo en terreno
+   - Reporte de avances de obra
+   - Control de calidad en ejecución
+   - Dar visto bueno previo a avances ITO
+   - Plan de trabajo diario y checklists
+
+5. ITO MUNICIPAL (Inspector Técnico Municipal)
+   Ruta: /dashboard/dashboardproyect
+   Funciones:
+   - Completar avances del contratista en proyectos en ejecución
+   - Ingreso manual de porcentajes de avance (planeado vs real)
+   - Registro de avances físicos y financieros
+   - Subir evidencias fotográficas y documentos de respaldo
+   - Validación de tareas y control de calidad
+   - Gestión de no conformidades
+
+6. CONTRATISTA (Inspector de Obras)
+   Ruta: /dashboard/dashboardproyect
+   Funciones:
+   - Completar avances de obra en el sistema
+   - Ejecución de tareas asignadas
+   - Reporte de avances de construcción
+   - Asignación de cuadrilla
+   - Gestión financiera limitada
+   - Dashboard de tareas y asignación de equipo
+
+7. PROYECTISTA (Nuevo rol - Gestor Documental)
+   Ruta: /dashboard/dashboardproyect
+   Funciones:
+   - Gestión de repositorio documental de ante-proyectos
+   - Subir y organizar planos de arquitectura e ingeniería
+   - Gestión de documentos legales previos a licitación
+   - Reportar avances de proyectos en fase de diseño
+   - Elaboración de presupuestos previos a licitación
+   - NO maneja ejecución presupuestaria ni inspección en terreno
+   - Supervisado por Alcaldía y Secretaría de Planificación
+
+ROLES NO INCLUIDOS EN SISTEMA PÚBLICO:
+
+8. PLANNER
+   Ruta: NO APLICA
+   Funciones:
+   - Planificación y secuencia de actividades
+   - Monitoreo de avances de cronograma
+   - Reprogramación de tareas
+   - Diagrama Gantt y dashboard de partidas
+
+9. PREVENCIONISTA
+   Ruta: NO APLICA
+   Funciones:
+   - Gestión de seguridad en obra
+   - Inspección de condiciones de seguridad
+   - Investigación de incidentes
+   - Registro de charlas de seguridad
+   - Dashboard de seguridad y reportes de incidentes
+
+FLUJO DE SUPERVISIÓN:
+- ITO Municipal → DOM (Supervisor) → Alcaldía/Secretaría Planificación
+- Proyectista → Alcaldía/Secretaría Planificación
+- Contratista → ITO Municipal → DOM → Alcaldía/Secretaría Planificación
